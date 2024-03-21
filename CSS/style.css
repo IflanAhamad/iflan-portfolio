@@ -3,9 +3,10 @@
 
 
 :root{
-    primary: aqua;
-    dark-primary: #1b1f24;
+    --primary: aqua;
+    --dark-primary: #1b1f24;
 }
+
 
 *{
     margin: 0;
@@ -21,7 +22,7 @@ body{
 /*header*/
 
 header{
-    background-color: #1b1f24;
+    background-color: var(--dark-primary);
     padding: 10px 20px 30px 40px; /*top right bottom left*/
     color: white;
     display: flex;
@@ -64,16 +65,16 @@ ul li a:hover{
 header button{
     padding: 10px 20px;
     font-weight: bold;
-    background-color: #1b1f24;
-    border: 1px solid aqua;
-    color: aqua;
+    background-color: var(--dark-primary);
+    border: 1px solid var(--primary);
+    color: var(--primary);
     border-radius: 5px;
 }
 
 header button:hover{
     cursor: pointer;
-    background-color: aqua;
-    color: #1b1f24;
+    background-color: var(--primary);
+    color: var(--dark-primary);
 }
 
 
