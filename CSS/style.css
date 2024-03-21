@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+:root{
+    primary: aqua;
+    dark-primary: #1b1f24;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    font-family: 'Nunito Sans' ,sans-serif;
+}
+
+
+/*header*/
+
+header{
+    background-color: #1b1f24;
+    padding: 10px 20px 30px 40px; /*top right bottom left*/
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'popins',sans-serif;
+}
+
+.logo{
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.logo a{
+    text-decoration: none;
+    
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+    
+
+}
+
+ul li {
+    margin-right: 30px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color: aqua;
+}
+
+header button{
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: #1b1f24;
+    border: 1px solid aqua;
+    color: aqua;
+    border-radius: 5px;
+}
+
+header button:hover{
+    cursor: pointer;
+    background-color: aqua;
+    color: #1b1f24;
+}
+
+
