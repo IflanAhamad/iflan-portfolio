@@ -29,6 +29,9 @@ header{
     justify-content: space-between;
     align-items: center;
     font-family: 'popins',sans-serif;
+
+    position: fixed;
+    width: 100%;
 }
 
 .logo{
@@ -75,7 +78,7 @@ section.hero-section{
     background-color: var(--dark-primary);
     color: white;
     display: flex;
-    padding: 20px 120px 0 200px;
+    padding: 20px 100px 0 200px;
     align-items: center;
    
 }
